@@ -1,0 +1,118 @@
+.NavBar {
+  height: 10%;
+}
+
+.CallEntry {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: rgba(56, 69, 185, 1);
+}
+
+.buttoncss {
+  background-color: rgba(56, 69, 185, 1); /* Green */
+  border-radius: 10px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.buttoncsss {
+  background-color: rgba(56, 69, 185, 1); /* Green */
+  border-radius: 10px;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.CallMain {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30%;
+}
+
+.MainInput {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 300px;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+.MainInput2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 60%;
+  margin: 20px auto;
+  /* margin: auto; */
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.CallImg {
+  width: 50%;
+  margin: 20px;
+  height: 320px;
+  border-radius: 20px;
+}
+.CallImg img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+.form {
+  justify-self: center;
+  align-self: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* or */
+
+.or {
+  display: flex;
+  font-size: 20px;
+  width: 20%;
+  margin: 8px;
+  align-items: center;
+  justify-content: center;
+}
+.or p {
+  padding: 0;
+  margin: 0 11px;
+}
+.HR {
+  height: 1px;
+  width: 10vh;
+  color: rgba(56, 69, 185, 1);
+  display: inline;
+}

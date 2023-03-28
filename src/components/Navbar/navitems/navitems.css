@@ -1,0 +1,12 @@
+.NavLink {
+  height: 100%;
+  margin: 10px;
+  padding: 0 10px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.Active {
+  color: rgba(126, 137, 253, 1);
+}
